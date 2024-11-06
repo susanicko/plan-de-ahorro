@@ -1,0 +1,76 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 10%;
+    padding: 0;
+}
+
+/* Estilo para el formulario de ingreso */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #a0e684;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+/* Estilo para el título "Ingreso" */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para los campos de entrada de usuario y contraseña */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilo para el botón de ingreso */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #82E859;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #7EE356;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.regresar
+{
+padding: 10px;
+text-align: center;
+background-color: #7EE356;
+color: #000000;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}

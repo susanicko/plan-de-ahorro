@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .modal
+{
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    /* background-color: #333;
+    display: flex;
+
+    --opacity:0;
+    --pointer:none;
+
+    opacity: var(--opacity);
+    pointer-events: var(--pointer);
+    transition: opacity .5s; 
+}  */
+/* sub-clase */
+/* .modal:target
+{
+    --opacity:1;
+    --pointer:unset;
+} */
+.container
+{
+   margin: auto;
+    margin-top: 50px;
+   background-color: #B3E89E;
+   width: 90%;
+   max-width:600px;
+   max-height: 90%;
+   border-radius: 10px;
+   padding: 2.5em 4em;
+   /* overflow:hidden;
+   text-align: center;
+   padding: 2.5em 1.5em;
+   border-radius: 1em; */
+}
+.modal__picture
+{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-bottom: 2em;
+}
+.modal__img
+{
+    width: 90%;
+    display: block;
+}
+.modal__title
+{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.modal__parrafo
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+.modal__cerrar
+{
+    display: inline-block;
+    border:solid 1px #000000;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+}
+.Mol
+{
+    height: 400px;
+    width: 400px;
+
+}
+.dinero
+{
+    height: 400px;
+    width: 400px;
+}
